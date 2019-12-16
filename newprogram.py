@@ -1,5 +1,6 @@
-a=input("are you manoj")
-if a=="yes":
-    print("Welcome")
+a=int(input())
+if a%2==0:
+    print("Even number")
 else:
-    print("Bye")
+    print("odd number")
+    
